@@ -64,7 +64,7 @@ keybutton1.Text = "Check KEY"
 keybutton2.Text = "Get KEY"
 keytextBox.PlaceholderText = "Enter KEY..."
 keytextBox.Text = ""
-keylabel1.Text = "Revo RIVALS"
+keylabel1.Text = "Frix owns RIVALS"
 keylabel2.Text = "Key system"
 
 -- colors
@@ -163,7 +163,7 @@ keylabel2.TextScaled = false
 -- functions
 keybutton1.MouseButton1Click:Connect(function()
 	print("checking key...")
-	if keytextBox.Text == "Revo on RIVALS" then
+	if keytextBox.Text == "4n8fj-p2x7k-6qv3m-z1r9t-c5hgb" or "t7m2q-w8f4k-3zj9n-v6p1x-r5c8d" or "h4k9v-2m7qx-b3t8n-z6p1f-j5rwg" then
 		keyscreenGui:Destroy()
 		loadstring(game:HttpGet("https://pastebin.com/raw/tffyi0uA"))()
 		print("script executed")
@@ -177,7 +177,7 @@ keybutton1.MouseButton1Click:Connect(function()
 end)
 
 keybutton2.MouseButton1Click:Connect(function()
-	setclipboard("https://discord.gg/PKmvd5bMj")
+	setclipboard("https://discord.gg/ZxcCNKxz")
 	keybutton2.Text = "Link copied!"
 	task.wait(5)
 	keybutton2.Text = "Get KEY..."
